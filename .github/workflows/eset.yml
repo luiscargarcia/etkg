@@ -1,8 +1,8 @@
 name: Account and Key Generator
 
 on:
- # schedule: #if need schedule 
-    - cron: "0 2 27 * *"
+  schedule: #if need schedule 
+    - cron: "0 5 15,30 * *"
   workflow_dispatch:
     inputs:
       account:
